@@ -8,11 +8,11 @@ body{
     margin: auto;
     width: 100%;
     position: relative;
-    background-color: #fcfcfc;
+    background-color: #a4e3b68c;
     font-family: 'Roboto', sans-serif;
 }
 
-/* navbar */
+
 
 .navbar{
     position: fixed;
@@ -25,7 +25,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #7be609;
+    background-color: #7be609;
+    background-color: #18bfa1;
+    position: center;
 }
 
 .logo{
@@ -37,6 +39,7 @@ body{
 .nav-links-container{
     display: flex;
     list-style: none;
+    background-color: #7be609;
 }
 
 .links{
@@ -48,6 +51,7 @@ body{
     font-size: 1rem;
     opacity: 0.5;
     transition: .5s;
+    
 }
 
 .links.active, .links:hover{
@@ -61,6 +65,8 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+    margin-left: 0%;
+    float: left;
 }
 
 .header-heading{
@@ -80,6 +86,7 @@ body{
 
 .brand-name span{
     color: #9f5264;
+    box-shadow: 10px 10px lightblue;
 }
 
 .btn{
@@ -93,6 +100,9 @@ body{
     text-transform: capitalize;
     transition: .5s;
     margin-right: 20px;
+    background-color: #18bfa1;
+    position: center;
+    box-shadow: 10px 10px lightblue;
 }
 
 .header-img-container{
@@ -111,6 +121,8 @@ body{
     width: 500px;
     height: 500px;
     object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 10px 10px lightblue;
 }
 
 .circle{
@@ -141,11 +153,14 @@ body{
 }
 
 .heading{
-    text-align: center;
+    text-align: left;
     text-transform: capitalize;
     font-size: 3rem;
     font-weight: 300;
     margin-bottom: 100px;
+
+  
+
 }
 
 .about-container{
@@ -236,6 +251,9 @@ html{
     cursor: pointer;
     transition: .2s;
     border-radius: 10px;
+    box-shadow: 10px 10px lightblue;
+    background-color: #18bfa1;
+    position: center;
 }
 
 .skill-name:hover{
@@ -475,4 +493,51 @@ html{
     margin-top: 10px;
     margin-right: 5px;
     padding: 10px 20px;
+}
+
+    .navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        width: 100%;
+        height: 80px;
+        padding: 0 10vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #7be609;
+    }
+
+
+
+    #happy: {
+font-size: 8em;
+animation-name: rotate;
+animation-duration:3s;
+animation-iteration-count:
+infinite;
+animation-timing-function:
+bezier;
+width: 100px;
+height: 100px;
+background: red;
+position: relative;
+animation-name: example;
+animation-duration: 3s;  
+animation-fill-mode: forwards;
+}
+
+
+
+@keyframes happy {
+100% {
+transform: rotate(360deg);
+}}
+@keyframes side-to-side-rotate 
+
+}
+}
+#navbarNavDropdown {
+    background-color: #7be609;
 }
