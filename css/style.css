@@ -536,8 +536,33 @@ transform: rotate(360deg);
 }}
 @keyframes side-to-side-rotate 
 
-}
-}
-#navbarNavDropdown {
+
+.navbarNavDropdown {
     background-color: #7be609;
 }
+@media screen and (min-width: 480px)
+
+{
+
+ 
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
+  @media screen and (max-width: 600px) {
+    .nav.navbar .nav-links-container .header-heading .brand-name .jumbotron .about-container .btn .skills{
+      float: none;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .jumbotron {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .about-container {
+      width: 100%;
+    }
+  }
